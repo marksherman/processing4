@@ -32,6 +32,7 @@ dependencies {
     implementation(libs.gluegen)
 
     testImplementation(libs.junit)
+    implementation("org.mockito:mockito-core:5.23.0")
 }
 
 mavenPublishing{
